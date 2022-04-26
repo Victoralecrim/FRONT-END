@@ -1,0 +1,20 @@
+body{
+    background-image: url("../img/imagemCodprog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.txt-Sobre{
+    color: white;
+    font-size: medium;
+    padding: 35px;
+    margin: auto;
+    align-items: center;
+    justify-content:center;
+    float:center;
+    opacity: 0,3;
+    width: 100%;
+    height: 40vh;
+    
+}
