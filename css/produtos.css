@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+
 }
 
 
@@ -51,7 +51,7 @@ table {
 #cabecalho td img[class="computador"] {
     width: auto;
     margin: 0 auto;
-    display: inline-block;
+    display: flex;
 }
 
 .txtcomputador {
@@ -59,33 +59,78 @@ table {
     text-align: center;
     padding: 2px;
     margin: 2px;
+    width: 200px;
 }
 
 #cabecalho,
 td img[class="monitor"] {
     width: auto;
     margin: 0 auto;
-    display: inline-block;
+    display: flex;
 }
 
 .txtmonitor {
     font-size: 15px;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+    width: 200px;
 }
 
 #cabecalho,
 td img [class="mouse"] {
     width: auto;
     margin: 0 auto;
-    display: inline-block;
+    display: flex;
 }
 
 .txtmouse {
     font-size: 15px;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+    width: 200px;
 }
 
 #cabecalho,
 td img[class="teclado"] {
     width: auto;
     margin: 0 auto;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtteclado {
+    font-size: medium;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+    width: 200px;
+}
+
+.computador {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 25px;
+    align-items: center;
+}
+.imgR{
+    width: 250px;
+}
+.imgT{
+    width: 250px;
+}
+.imgC{
+    width: 250px;
+}
+
+
+
+.imgM{
+    width: 250px;
 }
