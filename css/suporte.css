@@ -122,6 +122,10 @@ input[type="reset"] {
     font-weight: bold;
 }
 
-footer{
-    padding: 2rem;
+footer {
+    background-color: #444444;
+    padding: 2.9rem;
+    margin-top: 260px;
+    position: fixed;
+    width: 100%;
 }

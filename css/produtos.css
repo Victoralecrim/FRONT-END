@@ -173,3 +173,13 @@ td img[class="teclado"] {
     
 }
 
+footer {
+    background-color: #444444;
+    padding: 2rem;
+    margin-top: 470px;
+    position: relative;
+    width: 100%;
+}
+
+
+
