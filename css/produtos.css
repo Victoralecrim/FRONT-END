@@ -55,7 +55,7 @@ table {
 }
 
 .txtcomputador {
-    font-size: medium;
+    font-size: 16px;
     text-align: center;
     padding: 2px;
     margin: 2px;
@@ -70,7 +70,7 @@ td img[class="monitor"] {
 }
 
 .txtmonitor {
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     padding: 2px;
     margin: 2px;
@@ -85,7 +85,7 @@ td img [class="mouse"] {
 }
 
 .txtmouse {
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
     padding: 2px;
     margin: 2px;
@@ -105,11 +105,11 @@ td img[class="teclado"] {
 }
 
 .txtteclado {
-    font-size: medium;
-    text-align: center;
-    padding: 2px;
-    margin: 2px;
-    width: 200px;
+   font-size: 18px;
+   text-align: center;
+   padding: 2px;
+   margin: 2px;
+   width: 200px;
 }
 
 .computador {
@@ -119,18 +119,57 @@ td img[class="teclado"] {
     margin: 25px;
     align-items: center;
 }
-.imgR{
-    width: 250px;
-}
-.imgT{
-    width: 250px;
-}
-.imgC{
+
+.imgR {
     width: 250px;
 }
 
-
-
-.imgM{
+.imgT {
     width: 250px;
 }
+
+.imgC {
+    width: 250px;
+}
+
+.imgM {
+    width: 250px;
+}
+
+.btncomprarC{
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    padding: 0.6em;
+    margin-top: 4px;
+}
+
+.btncomprarMonitor {
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    padding: 0.6em;
+    margin-top: 3.1em;
+}
+
+.btncomprarMouse {
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    padding: 0.6em;
+    margin-top: 3.2em;
+}
+
+.btncomprarTeclado {
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    padding: 0.6em;
+    margin-top: 4.7em;
+    
+}
+
